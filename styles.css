@@ -5,7 +5,16 @@
     padding : 0;
     font-family : 'kumbh Sans' , sans-serif;
 }
-
+.column{
+    float:left;
+    width:20%;
+    padding:5px;
+}
+.row::after {
+    content : "";
+    clear : both;
+    display: table;
+}
 .navbar{ 
     background : #131313;
     height : 80px;
